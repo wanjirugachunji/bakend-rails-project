@@ -28,11 +28,13 @@ Styling was done using CSS and Bootstrap
 
 Installation
 Fork and clone both the front-end and back-end repositories
+
 Back-end
 cd into the project directory
 run 'bundle install'
 run 'rake db:migrate'
 run 'bundle exec rake server' to start the server
+
 Front-end
 cd into the project directory
 run 'npm install'
@@ -70,4 +72,5 @@ How to Use:
 
 
 copyright
+
 © 2023 Github pages
