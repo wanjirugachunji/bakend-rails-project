@@ -1,4 +1,4 @@
-Joop App
+Joop App(Job Opportunities Application)
 
 
 Project Description
