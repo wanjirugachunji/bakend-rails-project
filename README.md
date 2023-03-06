@@ -1,7 +1,8 @@
 Joop App
 
-Description
+
 Project Description
+
 This is a job application for kenyans to check for new job listings.
 It is a single page CRUD application that has a back-end that is created using Ruby and a sinatra API that uses Active Record to access and persist data in a database, which is used by a separate React frontend that interacts with the database via the API which is then fetched from : http://localhost:9292/cats and http://localhost:9292/listings.. The front-end is created using React , html and css.
 
@@ -10,7 +11,9 @@ Front-end: https://github.com/wanjirugachunji/phase-3-sinatra-react-project-fron
 
 Back-end: https://github.com/wanjirugachunji/phase-3-sinatra-react-project
 
+
 Features:
+
 The home page displays a description of the application, and instructs the user to click on the "Listings" link in the navigation in order to view all of the listings
 Upon clicking on "Listings" in the navigation there is a dropdown menu at the top of the page to allow you to sort the listings by category
 Below the dropdown menu is a form where users can create new categories
@@ -19,27 +22,34 @@ If you would like to create a new listing click "New Listing" in the navigation 
 Once you are done filling out the form click "Create Listing" which will automatically take you to the "listings" page where you can see your new listing that you created
 
 
-
 On the front end the application uses a total of 9 components: App.js, Home.js, Navigation.js, Listings.js, Listing.js, New Listing.js, EditListing.js, NewCategory.js, and Filter.js
 
 The application has 3 different client-side routes throughout it using React-Router: Home, Listings, and NewListing
 
 Styling was done using CSS and Bootstrap
 
-Installation
+
+
+Installation:
+
 Fork and clone both the front-end and back-end repositories
 
-Back-end
+Back-end:
+
 cd into the project directory
 run 'bundle install'
 run 'rake db:migrate'
 run 'bundle exec rake server' to start the server
 
-Front-end
+Front-end:
+
 cd into the project directory
 run 'npm install'
 run 'npm start' and the application will open into browser
+
+
 How to Use:
+
 • Click "Listings in the navigation to see all of the listings"
 
 
@@ -71,6 +81,6 @@ How to Use:
 • Once you fill out the form click the "create listing" button which will take you back to the "Listings" page where you can see your new listing
 
 
-copyright
+Copyrights:
 
 © 2023 Github pages
