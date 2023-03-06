@@ -1,5 +1,11 @@
-require_relative "./config/environment"
-require "sinatra/activerecord/rake"
+require_relative './config/environment'
+require 'sinatra/activerecord/rake'
+
+
+desc "rake console"
+task :console do 
+    Pry.start
+end
 
 desc "Start the server"
 task :server do  
@@ -17,8 +23,4 @@ task :server do
   exec "bundle exec rerun -b '#{rackup}'"
 end
 
-desc "Start the console"
-task :console do
-  ActiveRecord::Base.logger = Logger.new(STDOUT)
-  Pry.start
-end
+
