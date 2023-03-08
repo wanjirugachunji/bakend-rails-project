@@ -12,7 +12,7 @@ Back-end: https://github.com/wanjirugachunji/phase-3-sinatra-react-project
 
 Features:
 The home page displays a description of the application, and instructs the user to click on the "Listings" link in the navigation in order to view all of the listings
-Upon clicking on "Listings" in the navigation there is a dropdown menu at the top of the page to allow you to sort the listings by category
+Upon clickin g on "Listings" in the navigation there is a dropdown menu at the top of the page to allow you to sort the listings by category
 Below the dropdown menu is a form where users can create new categories
 Below the form is all of the listings which are displayed with a title, body, and category and have the ability to be edited as well as deleted
 If you would like to create a new listing click "New Listing" in the navigation which will take you to a form to fill out
