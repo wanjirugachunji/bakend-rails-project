@@ -7,9 +7,9 @@ This is a job application for kenyans to check for new job listings.
 It is a single page CRUD application that has a back-end that is created using Ruby and a sinatra API that uses Active Record to access and persist data in a database, which is used by a separate React frontend that interacts with the database via the API which is then fetched from : http://localhost:3000/cats and http://localhost:3000/listings.. The front-end is created using React , html and css.
 
 #Repository URL:
-Front-end: https://github.com/wanjirugachunji/client
+-Front-end: https://github.com/wanjirugachunji/client
 
-Back-end: https://github.com/wanjirugachunji/bakend-rails-project
+-Back-end: https://github.com/wanjirugachunji/bakend-rails-project
 
 
 #Features:
@@ -30,22 +30,19 @@ Styling was done using CSS and Bootstrap
 
 
 
-#Installation:
+## Installation
 
-Fork and clone both the front-end and back-end repositories
+1. Fork and clone both the front-end and back-end repositories
 
-Back-end:
-
-cd into the project directory
-run 'bundle install'
-run 'rake db:migrate'
-run 'bundle exec rake server' to start the server
-
-Front-end:
-
-cd into the project directory
-run 'npm install'
-run 'npm start' and the application will open into browser
+2. Back-end
+  - cd into the project directory
+  - run 'bundle install'
+  - run 'rake db:migrate'
+  - run 'shotgun' to start the server
+3. Front-end
+  - cd into the project directory
+  - run 'npm install'
+  - run 'npm start' and the application will open into browser
 
 
 #How to Use:
