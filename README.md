@@ -11,6 +11,8 @@ It is a single page CRUD application that has a back-end that is created using R
 
 -Back-end: https://github.com/wanjirugachunji/bakend-rails-project
 
+- user-auth-main :https://github.com/wanjirugachunji/user-auth-main
+
 
 #Features:
 
