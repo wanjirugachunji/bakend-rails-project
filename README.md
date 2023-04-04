@@ -1,18 +1,18 @@
 Joop App(Job Opportunities Application)
 
 
-Project Description
+#Project Description
 
 This is a job application for kenyans to check for new job listings.
-It is a single page CRUD application that has a back-end that is created using Ruby and a sinatra API that uses Active Record to access and persist data in a database, which is used by a separate React frontend that interacts with the database via the API which is then fetched from : http://localhost:9292/cats and http://localhost:9292/listings.. The front-end is created using React , html and css.
+It is a single page CRUD application that has a back-end that is created using Ruby and a sinatra API that uses Active Record to access and persist data in a database, which is used by a separate React frontend that interacts with the database via the API which is then fetched from : http://localhost:3000/cats and http://localhost:3000/listings.. The front-end is created using React , html and css.
 
-Repository URL:
-Front-end: https://github.com/wanjirugachunji/phase-3-sinatra-react-project-front-end
+#Repository URL:
+Front-end: https://github.com/wanjirugachunji/client
 
-Back-end: https://github.com/wanjirugachunji/phase-3-sinatra-react-project
+Back-end: https://github.com/wanjirugachunji/bakend-rails-project
 
 
-Features:
+#Features:
 
 The home page displays a description of the application, and instructs the user to click on the "Listings" link in the navigation in order to view all of the listings
 Upon clickin g on "Listings" in the navigation there is a dropdown menu at the top of the page to allow you to sort the listings by category
@@ -30,7 +30,7 @@ Styling was done using CSS and Bootstrap
 
 
 
-Installation:
+#Installation:
 
 Fork and clone both the front-end and back-end repositories
 
@@ -48,7 +48,7 @@ run 'npm install'
 run 'npm start' and the application will open into browser
 
 
-How to Use:
+#How to Use:
 
 • Click "Listings in the navigation to see all of the listings"
 
@@ -81,6 +81,6 @@ How to Use:
 • Once you fill out the form click the "create listing" button which will take you back to the "Listings" page where you can see your new listing
 
 
-Copyrights:
+#Copyrights:
 
 © 2023 Github pages
